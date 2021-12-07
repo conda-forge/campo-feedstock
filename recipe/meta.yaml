@@ -7,11 +7,11 @@ package:
 
 source:
   url: https://campo.computationalgeography.org/download/sources/campo-{{ version }}.tar.bz2
-  sha256: 2cbe6fd300a7cb15920cca2030d941ae79b71ac03cf8bd4d5069707b27c40f78
+  sha256: 2c799cb9baa8f9ff5709f8c4ebcaf0fa90c8958db1746fbf20f1eded8669f87d
 
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
