@@ -1,4 +1,4 @@
-{% set version = "0.3.1" %}
+{% set version = "0.3.2" %}
 
 package:
   name: campo
@@ -7,11 +7,11 @@ package:
 
 source:
   url: https://campo.computationalgeography.org/download/sources/campo-{{ version }}.tar.bz2
-  sha256: 2c799cb9baa8f9ff5709f8c4ebcaf0fa90c8958db1746fbf20f1eded8669f87d
+  sha256: abae3a0d7b5fd923768f42f4481de2e445abd020fddb5f095b84a70ef3b2e264
 
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
