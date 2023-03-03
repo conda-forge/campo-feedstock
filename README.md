@@ -1,11 +1,11 @@
-About campo
-===========
+About campo-feedstock
+=====================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/campo-feedstock/blob/main/LICENSE.txt)
 
 Home: https://campo.computationalgeography.org/
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/campo-feedstock/blob/main/LICENSE.txt)
 
 Summary: Modelling framework for fields and agents
 
