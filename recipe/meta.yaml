@@ -1,4 +1,4 @@
-{% set version = "0.3.3" %}
+{% set version = "0.3.4" %}
 
 package:
   name: campo
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://campo.computationalgeography.org/download/sources/campo-{{ version }}.tar.bz2
-  sha256: d26d67e0f90237c6ee3f43445331a6dd5b5a6af0cde01fa2eb30f6b7b80c0b18
+  sha256: 82ae6d5e87148c053b679bf7dcf487b94d49ae6d86e0cd921778c551b0dc5129
 
 
 build:
