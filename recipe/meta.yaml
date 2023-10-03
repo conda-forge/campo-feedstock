@@ -1,4 +1,4 @@
-{% set version = "0.3.4" %}
+{% set version = "0.3.5" %}
 
 package:
   name: campo
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://campo.computationalgeography.org/download/sources/campo-{{ version }}.tar.bz2
-  sha256: 82ae6d5e87148c053b679bf7dcf487b94d49ae6d86e0cd921778c551b0dc5129
+  sha256: b6564745b66af0a6c29ffce41144ab9cb15a6f92886ad0d24184177a4d91c1e8
 
 
 build:
@@ -25,6 +25,7 @@ requirements:
     - python >=3.7
     - numpy
     - lue >=0.3.7
+    - hpx 1.9.0
     - pcraster
     - xarray
     - pandas
